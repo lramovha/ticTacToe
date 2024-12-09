@@ -1,0 +1,22 @@
+.cell {
+    background: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cell:hover {
+    background: #f3f3f3;
+  }
+  
+  @media (max-width: 768px) {
+    .cell {
+      font-size: 1.5rem;
+    }
+  }
+  
